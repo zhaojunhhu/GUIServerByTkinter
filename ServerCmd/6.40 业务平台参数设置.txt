@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.40 业务平台参数设置
+cmdinfo1={"RPCMethod":"Post" , "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_BUSINESS_PLATFORM_PARAM", "MgtURL":"", "Port":"", "HeartBeat":"", "Ability":"0", "LocalPort":"", "Version":"", "SequenceId":"1234AABB"}

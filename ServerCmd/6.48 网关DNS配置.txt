@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.48 网关DNS配置
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_NETWORK_DNS", "DNS1":"10.188.118.1", "DNS2":"180.168.255.119", "SequenceId":"1234AABB"}

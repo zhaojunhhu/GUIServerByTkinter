@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.19 发起Traceroute诊断
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"TRACEROUTE_DIAG_REQ", "Dest":"www.baidu.com", "WANName":"2_INTERNET_R_VID_3700", "USER":"telecomadmin", "PASSWORD":"nE7jA%5m", "SequenceId":"1234AABB"}

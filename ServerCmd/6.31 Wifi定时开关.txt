@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.31 Wifi定时开关
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_HG_WIFI_TIMER", "StartTime":"10:49", "EndTime":"10:50", "ControlCycle":"DAY", "Enable":"1", "SequenceId":"1234AABB"}

@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.41 网关下挂终端接入控制
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_ATTACH_DEVICE_RIGHT", "MAC":"DCF11034B8C2", "InternetAccessRight":"OFF", "SequenceId":"1234AABB"}

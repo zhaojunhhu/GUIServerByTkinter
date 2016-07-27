@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.35 网关重启
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"HG_COMMAND_REBOOT", "SequenceId":"1234AABB"}

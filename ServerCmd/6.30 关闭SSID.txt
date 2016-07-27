@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.30 关闭SSID
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"SET_WLAN_SSID_DISABLE", "SSIDIndex":"2", "SequenceId":"1234AABB"}

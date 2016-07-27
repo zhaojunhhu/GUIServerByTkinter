@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.6 查询内存占用率
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"QUERY_MEM_INFO", "SequenceId":"1234567b"}

@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=7.66 设置下挂设备别名
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_ATTACH_DEVICE_NAME", "MAC":"44:8a:5b:53:56:8a", "DevName":"rivaille", "SequenceId":"1234AABB"}

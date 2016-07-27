@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=7.61 增强型Wifi定时开关
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_HG_WIFI_TIMER_EX", "Action":"0", "WifiTimer": [{"Weekday": ["2"],"Time": "15:30","Action": "0","Enable": "1"},{"Weekday": ["2"],"Time": "16:30","Action": "1","Enable": "1"}], "SequenceId":"1234AABB"}

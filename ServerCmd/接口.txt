@@ -1,0 +1,47 @@
+6.2 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_VERSION\", \"SequenceId\":\"1234AABB\"}"}
+6.3 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_SN_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.4 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"QUERY_SYSTEM_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.5 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"QUERY_CPU_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.6 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"QUERY_MEM_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.7 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SYSTEST\", \"SequenceId\":\"1234AABB\"}"}
+6.8 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"PPPOE_DIAG_REQ\", \"SequenceId\":\"1234AABB\"}"}
+6.9 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"QUERY_WAN_NUM\", \"SequenceId\":\"1234AABB\"}"}
+6.10 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"QUERY_WAN_INFO\", \"WANName\":\"2_INTERNET_R_VID_3338\" ,\"SequenceId\":\"1234AABB\"}"}
+6.11 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"QUERY_WAN_REALRATE\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.12 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"HTTP_DOWNLOAD_REQUEST\", \"Method\":\"Start\", \"Time\":\"30\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.13 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_WIFI_INFO\", \"SSIDIndex\":\"1\" ,\"SequenceId\":\"1234AABB\"}"}
+6.14 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_WLAN_ATTACH_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.15 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_VOIP_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.16 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_VOIP_REG_STATUS\", \"SequenceId\":\"1234AABB\"}"}
+6.17 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"PING_DIAG_REQ\", \"Dest\":\"182.125.102.1\", \"WANName\":\"2_INTERNET_R_VID_1002\", \"leng\":\"64\", \"time\":\"3\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.18 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_PING_RESULT\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.19 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"TRACEROUTE_DIAG_REQ\", \"Dest\":\"182.125.102.1\", \"WANName\":\"2_INTERNET_R_VID_1002\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.20 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_TRACEROUTE_RESULT\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.21 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"INFORM_DIAG_REQ\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.22 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"REGISTER\", \"USERID\":\"qcc1007\", \"PASSWORD\":\"qcc1007\", \"SequenceId\":\"1234AABB\"}"}
+6.23 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"REGISTER_GETSTAT\", \"SequenceId\":\"1234AABB\"}"}
+6.24 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_PONINFORM_REQ\", \"SequenceId\":\"1234AABB\"}"}
+6.25 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_PON_STATUS\", \"SequenceId\":\"1234AABB\"}"}
+6.26 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_HTTP_CFG\", \"URL\":\"http://182.125.102.10/1.rar\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.27 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_HG_DATE_TIME_SYNC\", \"Time\":\"2014-06-19T03:03:41+00:00\", \"SequenceId\":\"1234AABB\"}"}
+6.28 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_WLAN_INTF_INFO\", \"SequenceId\":\"1234AABB\"}"}
+6.29 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_WIFI_INFO\", \"SSIDIndex\":\"1\", \"SSID\":\"ChinaNet-8974\", \"PWD\":\"87654321\", \"ENCRYPT\":\"3\", \"PowerLevel\":\"90\", \"Channel\":\"2\", \"Enable\":\"1\", \"SequenceId\":\"1234AABB\"}"}
+6.30 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_WLAN_SSID_DISABLE\", \"SSIDIndex\":\"1\", \"SequenceId\":\"1234AABB\"}"}
+6.31 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_HG_WIFI_TIMER\", \"StartTime\":\"16:10\", \"EndTime\":\"16:15\", \"ControlCycle\":\"DAY\", \"Enable\":\"1\", \"SequenceId\":\"1234AABB\"}"}
+6.32 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_RIGHT\", \"API\":\"GET_VERSION\", \"RIGHT\":\"3\", \"SequenceId\":\"1234AABB\"}"}
+6.33 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_TIME_DURATION\", \"SequenceId\":\"1234AABB\"}"}
+6.34 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_DEVICE_INFO_ALL\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.35 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"HG_COMMAND_REBOOT\", \"SequenceId\":\"1234AABB\"}"}
+6.36 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"HG_LOCAL_RECOVERY\", \"SequenceId\":\"1234AABB\"}"}
+6.37 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_LAN_NET_INFO\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.38 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_HG_LOID\", \"SequenceId\":\"1234AABB\"}"}
+6.39 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"CHECK_PASSWD_PARAM\", \"PassWD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.40 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_BUSSINESS_PLATFORM_PARAM\", \"MgtURL\":\"182.125.102.36\", \"Port\":\"12565\", \"HeartBeat\":\"60\", \"Ablility\":\"NULL\", \"LocalPort\":\"35778\", \"Version\":\"NULL\", \"SequenceId\":\"1234AABB\"}"}
+6.41 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_ATTACH_DEVICE_RIGHT\", \"MAC\":\"00:26:9E:9B:93:C0\", \"InternetAccessRight\":\"OFF\", \"SequenceId\":\"1234AABB\"}"}
+6.42 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_WD_INFO\", \"enable\":\"1\", \"W\":\"300\", \"H\":\"300\", \"Place\":\"300\", \"WDurl\":\"www.luintan.com\", \"time\":\"460\", \"SequenceId\":\"1234AABB\"}"}
+6.44 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"UPGRADE\", \"downurl\":\"http:\/\/182.125.102.192:8080/bcm18.96838GWOVS_nand_fs_128-ct.fskernel\", \"SequenceId\":\"1234AABB\"}"}
+6.45 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_LAN_INFO2\", \"SequenceId\":\"1234AABB\"}"}
+6.46 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"PPPOE_DIAL_REQUEST\", \"Account\":\"tw2\", \"Password\":\"tw2\", \"USER\":\"telecomadmin\", \"PASSWORD\":\"nE7jA%5m\", \"SequenceId\":\"1234AABB\"}"}
+6.47 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_SERVICE\", \"SequenceId\":\"1234AABB\"}"}
+6.48 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"SET_NETWORK_DNS\", \"DNS1\":\"182.125.102.1\", \"DNS2\":\"8.8.8.8\", \"SequenceId\":\"1234AABB\"}"}
+6.49 {"RPCMethod":"Post", "ID":12345, "Plugin_Name":"", "Version":"1.0", "Parameter":"{\"CmdType\":\"GET_ATTACH_DEVICE_RIGHT\", \"SequenceId\":\"1234AABB\"}"}

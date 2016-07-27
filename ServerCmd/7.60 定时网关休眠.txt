@@ -1,0 +1,7 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=7.60 定时网关休眠
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_SLEEP_STATUS", "Action":"1","SLEEPTimer":[{"Weekday": ["7"],"Time": "19:51","Active": "1","Enable": "1"}], "SequenceId":"1234AABB"}
+      

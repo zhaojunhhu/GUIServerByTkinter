@@ -1,0 +1,62 @@
+﻿[MAIN]
+val=2
+[CMD]
+cmdname1=7.27网关校时
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"SET_HG_DATE_TIME_SYNC", "SequenceId":"1234567b","Time":"2014-06-25T16:00:34Z"}
+
+cmdname2=7.31wifi定时开关
+cmdinfo2={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara2={"CmdType":"SET_HG_WIFI_TIMER","SequenceId":"18900912","StartTime":"16:02","EndTime":"16:05","ControlCycle":"DAY","Enable":"1"}
+
+
+https://test.189cube.com/device/connect?token=&MAC=001F8F8A59BB   信邦
+https://nosauth.189cube.com/connect?token=&MAC=001F8F8A59BB   磊科
+
+http://kdznpz.xbsafe.cn/gatewaytest/
+
+https://189cube.com:80/plugin/post?token=&PluginName=1&Version=1.0
+
+001F8F8A59BB
+001F8F-6310NB01011406000001
+
+http://kdznpz.xbsafe.cn/gateway/   测试平台地址
+
+220.181.85.238  异常流程测试平台
+
+运营平台返回-5，向运营平台重新注册
+运营平台返回-5，向运营平台重新注册
+分发平台返回-5，向分发平台重新注册。
+心跳服务器返回-5，向分发平台重新注册。
+
+已绑定平台的MAC 和 SN
+001F8F8A59BB
+001F8F-6310NB01011406000001
+
+
+南汇的分发平台域名，手机app和网关用的不一样，请大家注意下：
+routereg.189cube.com网关注册
+routeplat.189cube.com手机app注册
+
+IDC上的分发平台域名，手机app和网关是一样的：
+都是189cube.com  101.226.243.251
+运营平台：operate.189cube.com 180.153.40.36
+
+连idc的平台需要用723route.189cube.apk
+
+测试时大部分测试项仍然在南汇机房平台上进行测试；“上网助手”相关的少数测试项（3.12.26~3.12.29）将可能在IDC机房进行测试
+
+3.12.12测试结束后要重启网关
+
+soft_feature set support_mobileapp_debug true  debug模式测试 所有接口向本地开放
+
+各位网关同事注意：
+原来的手机APP管理家庭网关的接口方案中，I.6.48接口“网关DNS配置”将从方案中删除，因此，请各位在网关版本中将该配置DNS的功能删除。
+相应测试用例中（4+1的case 40、2+1的case 33）也不再对该接口功能进行测试。
+
+放两个平台日志查询页面，供大家测试查看
+磊科运营平台：https://nosauth1.189cube.com/admincenter.php
+用户名：sttri密码sttri12345
+
+信邦分发平台：
+http://route.189cube.com/qos/qosLogList

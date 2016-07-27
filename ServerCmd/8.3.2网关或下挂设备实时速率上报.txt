@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=8.3.2网关或下挂设备实时速率上报
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"DEVICE_SPEED", "Enable":"1","Time":"30","List":[{"MAC":"38bc1ad3ccf4"},{"MAC":"241fa0c2bb0e"}],"SequenceId":"1234567b"}

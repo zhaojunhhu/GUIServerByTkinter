@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.11 获取WAN口接收字节数
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"QUERY_WAN_REALRATE", "USER":"telecomadmin", "PASSWORD":"nE7jA%5m", "SequenceId":"1234AABB"}

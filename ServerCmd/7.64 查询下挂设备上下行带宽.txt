@@ -1,0 +1,7 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=7.64 查询下挂设备上下行带宽
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"QUERY_ATTACH_DEVICE_BANDWIDTH", "MAC":"44:8a:5b:53:56:8a", "SequenceId":"1234AABB"}
+

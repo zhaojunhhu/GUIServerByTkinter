@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=ATTACH_WAN_DNS_TUNNEL
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"ATTACH_WAN_DNS_TUNNEL","SequenceId":"2234567b","server_ip":"172.24.35.135","List":[{"DomainName":"bcs.91rb.com"},{"DomainName":"bcs.hiapk.91rb.com"},{"DomainName":"bcs.itunesapp.91rb.com"},{"DomainName":"da2.91rb.com"},{"DomainName":"www.baidu.com"}]}

@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.43 DNS重定向功能
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"UPGRADE", "downurl":"http://182.125.102.28/osgid.cpk", "mode":"1","method":"1","SequenceId":"1234AABB"}

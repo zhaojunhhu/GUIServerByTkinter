@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.34 设备快照合并消息
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"GET_DEVICE_INFO_ALLT", "USER":"telecomadmin", "PASSWORD":"nE7jA%5m", "SequenceId":"1234AABB"}

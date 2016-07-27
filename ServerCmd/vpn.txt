@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=CREATE_WANL2TP_TUNNEL
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"CREATE_WANL2TP_TUNNEL","SequenceId":"2234567b","serverIpAddr":"172.24.35.135","username":"vpn","password":"vpn"}

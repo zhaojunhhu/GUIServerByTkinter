@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=ATTACH_WANL2TP_TUNNEL
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"ATTACH_WANL2TP_TUNNEL","SequenceId":"2234567b","tunnelName":"ppp0","List":[{"ipDomainNameAddr":"80.80.80.80"},{"ipDomainNameAddr":"40.40.40.110"},{"ipDomainNameAddr":"182.125.102.1"},{"ipDomainNameAddr":"182.125.102.2"},{"ipDomainNameAddr":"182.125.102.3"},{"ipDomainNameAddr":"182.125.102.4"},{"ipDomainNameAddr":"182.125.102.5"},{"ipDomainNameAddr":"182.125.102.8"},{"ipDomainNameAddr":"182.125.102.7"},{"ipDomainNameAddr":"182.125.102.6"},{"ipDomainNameAddr":"182.125.102.9"},{"ipDomainNameAddr":"182.125.102.11"}]}

@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.32 设置接口开放权限
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"SET_RIGHT", "API":"GET_SN_INFO", "RIGHT":"2", "SequenceId":"1234AABB"}

@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.10 查询某一条WAN连接的信息
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"QUERY_WAN_INFO", "WANName":"2_INTERNET_R_VID_1007", "SequenceId":"1234567b"}

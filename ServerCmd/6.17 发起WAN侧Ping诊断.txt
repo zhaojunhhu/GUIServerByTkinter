@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.17 发起WAN侧Ping诊断
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"PING_DIAG_REQ", "SequenceId":"1234567b", "Dest":"182.125.102.1", "WANName":"1_TR069_R_VID_1001", "leng":"64", "time":"3", "USER":"telecomadmin", "PASSWORD":"nE7jA%5m"",}

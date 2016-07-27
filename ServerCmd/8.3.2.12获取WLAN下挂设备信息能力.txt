@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=8.3.1新接入设备上报消息
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"GET_WLAN_ATTACH_INFO","SequenceId":"1234567b"}

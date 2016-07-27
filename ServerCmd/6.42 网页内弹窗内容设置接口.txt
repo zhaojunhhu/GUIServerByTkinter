@@ -1,0 +1,6 @@
+﻿[MAIN]
+val=1
+[CMD]
+cmdname1=6.42 网页内弹窗内容设置接口
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"SET_WD_INFO", "enable":"1", "W":"300", "H":"300", "Place":"300", "WDurl":"https://www.alipay.com", "time":"460", "SequenceId":"1234AABB"}

@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=7.65 设置下挂设备上下行最大带宽限制
+cmdinfo1={"RPCMethod":"Post", "ID":0000, "Plugin_Name":"test", "Version":"1.0", "Parameter":
+cmdpara1={"CmdType":"SET_ATTACH_DEVICE_BANDWIDTH", "MAC":"44:8a:5b:53:56:8a", "UsBandwidth":"1500", "DsBandwidth":"2500", "SequenceId":"1234AABB"}

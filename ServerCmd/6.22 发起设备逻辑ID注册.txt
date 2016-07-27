@@ -1,0 +1,6 @@
+[MAIN]
+val=1
+[CMD]
+cmdname1=6.22 发起设备逻辑ID注册
+cmdinfo1={"RPCMethod":"Post" , "ID":0000,"Plugin_Name": "test","Version":"1.0","Parameter":
+cmdpara1={"CmdType":"REGISTER", "USERID":"qcc1008", "PASSWORD":"qcc1008", "SequenceId":"1234AABB"}
