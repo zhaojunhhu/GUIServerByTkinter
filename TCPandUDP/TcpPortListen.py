@@ -14,26 +14,26 @@ class ListenthreadTCP_Fenfa(threading.Thread):
 		threading.Thread.__init__(self)
 	def run(self):
 		##监控12112端口，引入TCP处理类
-		server = ThreadingTCPServer(((ReadSettingsLineName(1), int(ReadSettingsLineName(2)))), MyBaseRequestHandlerrTCP_Fenfa)
+		server = ThreadingTCPServer((ReadSettingsLineName(1), int(ReadSettingsLineName(2))), MyBaseRequestHandlerrTCP_Fenfa)
 		server.serve_forever()
 
 ####TCP链接线程处理60001端口数据
 class ListenthreadTCP_YunYing(threading.Thread):
-	def __init__(self):
-		threading.Thread.__init__(self)
-	def run(self):
-		server = ThreadingTCPServer(((ReadSettingsLineName(1), int(ReadSettingsLineName(3)))), MyBaseRequestHandlerrTCP_YunYing)
-		server.serve_forever()
-
-####TCP链接线程处理60002端口数据
-class ListenthreadTCP_ChaJian(threading.Thread):
 	def __init__(self,Windows):
 		threading.Thread.__init__(self)
 		self.List=Windows.Frame_Left_Down_List
 	def run(self):
 		global List
 		List =self.List   #讲Tkinter界面传入
-		server = ThreadingTCPServer(((ReadSettingsLineName(1), int(ReadSettingsLineName(4)))), MyBaseRequestHandlerrTCP_ChaJian)
+		server = ThreadingTCPServer((ReadSettingsLineName(1), int(ReadSettingsLineName(3))), MyBaseRequestHandlerrTCP_YunYing)
+		server.serve_forever()
+
+####TCP链接线程处理60002端口数据
+class ListenthreadTCP_ChaJian(threading.Thread):
+	def __init__(self):
+		threading.Thread.__init__(self)
+	def run(self):
+		server = ThreadingTCPServer((ReadSettingsLineName(1), int(ReadSettingsLineName(4))), MyBaseRequestHandlerrTCP_ChaJian)
 		server.serve_forever()
 
 ####TCPServer处理12112端口数据

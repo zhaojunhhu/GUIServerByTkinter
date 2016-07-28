@@ -1,8 +1,26 @@
 # -*- coding:utf-8 -*-
 import json,simplejson
-import base64
+import base64,os
 from OnuList.Readonulist import *
 from RunningOnu import *
+
+###查询设备是否存在onulist。ini中
+def Serche_OnuList(file_str):
+	file_str = file_str + '.ini'###查找文件名
+	dir_name = os.listdir("OnuList\List")
+	count = len(dir_name)
+	for i in range(0,count):
+		if file_str == dir_name[i]:
+			return True #设备已经被录入
+		else:
+			continue
+
+###返回读取的List中指定ONU信息，入口ONU文件名
+def ReadConfigOnuData(OnuMac):
+	s = linecache.getline("OnuList\List\\"+OnuMac+".ini",1)
+	linecache.clearcache() #很关键的一句，否则listbox调用时会刷新
+	s = Filter(s,"--=(.*?)\n")
+	return s
 
 def WebMethod(data):   ####webdjango操作方法判断
 	ans ={'CmdType':'None'}
@@ -15,8 +33,25 @@ def WebMethod(data):   ####webdjango操作方法判断
 			return 'OnuRun'
 		elif ans['CmdType'] =='TestOnu':
 			return 'TestOnu'
+		elif ans['CmdType'] =='FindOnu':
+			return 'FindOnu'
 		else:
 			return False
+
+def WebDjangoFindOnuInfo(data):
+	info = 'None'
+	ansaddr = 'None'
+	try:
+		ansaddr = json.loads(data)['OnumacAddr']
+		if Serche_OnuList(ansaddr) == True:
+			onuinfo = ReadConfigOnuData(ansaddr)
+			info = onuinfo
+			print u"当前设备已存在"
+		else:
+			info = '2001NOK'
+			print u"当前设备不存在"
+	finally:
+		return info
 
 def WebDjangoOnuAddr(data):   ####webdjango消息中Onumac地址判断
 	ansaddr ='None'

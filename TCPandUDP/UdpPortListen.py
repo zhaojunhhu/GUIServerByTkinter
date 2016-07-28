@@ -207,6 +207,17 @@ class ListenthreadUDP_WebServer(threading.Thread):
 				else:
 					print u"测试OnuMacAddr不合法！"
 					mysocketUDP_WebServer.sendto('2001NOK',ip)
+			elif  WebMethod(data) =="FindOnu":
+				if WebDjangoOnuAddr(data):
+					print u"测试OnuMacAddr合法"
+					info = 'None'
+					try:
+						info = WebDjangoFindOnuInfo(data)
+					finally:
+						mysocketUDP_WebServer.sendto(info,ip)
+				else:
+					print u"测试OnuMacAddr不合法！"
+					mysocketUDP_WebServer.sendto('2001NOK',ip)
 			else:
 				print u"webserver端口60006收到数据"+data
 			AddRecv_UdpLogs("From Webserver addonu requeset"+data,ip)	###接收到的消息添加到LOG记录
