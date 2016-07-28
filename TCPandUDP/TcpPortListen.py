@@ -14,7 +14,7 @@ class ListenthreadTCP_Fenfa(threading.Thread):
 		threading.Thread.__init__(self)
 	def run(self):
 		##监控12112端口，引入TCP处理类
-		server = ThreadingTCPServer((('', int(ReadSettingsLineName(2)))), MyBaseRequestHandlerrTCP_Fenfa)
+		server = ThreadingTCPServer(((ReadSettingsLineName(1), int(ReadSettingsLineName(2)))), MyBaseRequestHandlerrTCP_Fenfa)
 		server.serve_forever()
 
 ####TCP链接线程处理60001端口数据
@@ -22,7 +22,7 @@ class ListenthreadTCP_YunYing(threading.Thread):
 	def __init__(self):
 		threading.Thread.__init__(self)
 	def run(self):
-		server = ThreadingTCPServer((('', int(ReadSettingsLineName(3)))), MyBaseRequestHandlerrTCP_YunYing)
+		server = ThreadingTCPServer(((ReadSettingsLineName(1), int(ReadSettingsLineName(3)))), MyBaseRequestHandlerrTCP_YunYing)
 		server.serve_forever()
 
 ####TCP链接线程处理60002端口数据
@@ -33,7 +33,7 @@ class ListenthreadTCP_ChaJian(threading.Thread):
 	def run(self):
 		global List
 		List =self.List   #讲Tkinter界面传入
-		server = ThreadingTCPServer((('', int(ReadSettingsLineName(4)))), MyBaseRequestHandlerrTCP_ChaJian)
+		server = ThreadingTCPServer(((ReadSettingsLineName(1), int(ReadSettingsLineName(4)))), MyBaseRequestHandlerrTCP_ChaJian)
 		server.serve_forever()
 
 ####TCPServer处理12112端口数据
@@ -45,7 +45,7 @@ class MyBaseRequestHandlerrTCP_Fenfa(BaseRequestHandler):
 			try:
 				#一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				data = self.request.recv(4096)
-				data = "{"+Filter(data,".*?{(.*?)}")+"}"
+				data = data[4:]
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
 				if MCSEOnuMac(data):  ##用MAC去判断设备是否存在
@@ -73,7 +73,8 @@ class MyBaseRequestHandlerrTCP_YunYing(BaseRequestHandler):
 			try:
 				#一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				data = self.request.recv(4096)
-				data = "{"+Filter(data,".*?{(.*?)}")+"}"
+				data = data[4:]
+				#print len(data)
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
 				if RPCMethod_Boot(data) == 'Boot':
@@ -104,7 +105,7 @@ class MyBaseRequestHandlerrTCP_ChaJian(BaseRequestHandler):
 			#当客户端主动断开连接时，self.recv(1024)会抛出异常
 			try:
 				data = self.request.recv(4096)              ###一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
-				data = "{"+Filter(data,".*?{(.*?)}")+"}"
+				data = data[4:]
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
 				#if MCSEOnuTestting(data):	##查询设备是否为当前测试的设备
