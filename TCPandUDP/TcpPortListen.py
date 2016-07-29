@@ -34,7 +34,7 @@ class ListenthreadTCP_ChaJian(threading.Thread):
 		threading.Thread.__init__(self)
 	def run(self):
 		server = ThreadingTCPServer((ReadSettingsLineName(1), int(ReadSettingsLineName(4))), MyBaseRequestHandlerrTCP_ChaJian)
-		server.serve_forever()
+		server.serve_forever(poll_interval=0.5)
 
 ####TCPServer处理12112端口数据
 class MyBaseRequestHandlerrTCP_Fenfa(BaseRequestHandler):
@@ -45,6 +45,8 @@ class MyBaseRequestHandlerrTCP_Fenfa(BaseRequestHandler):
 			try:
 				#一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				data = self.request.recv(4096)
+				if not data:
+					self.sock.close()
 				data = data[4:]
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
@@ -73,6 +75,8 @@ class MyBaseRequestHandlerrTCP_YunYing(BaseRequestHandler):
 			try:
 				#一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				data = self.request.recv(4096)
+				if not data:
+					self.sock.close()
 				data = data[4:]
 				#print len(data)
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
@@ -105,6 +109,8 @@ class MyBaseRequestHandlerrTCP_ChaJian(BaseRequestHandler):
 			#当客户端主动断开连接时，self.recv(1024)会抛出异常
 			try:
 				data = self.request.recv(4096)              ###一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
+				if not data:
+					self.sock.close()
 				data = data[4:]
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
