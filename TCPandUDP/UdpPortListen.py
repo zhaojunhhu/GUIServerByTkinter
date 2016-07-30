@@ -162,62 +162,66 @@ class ListenthreadUDP_YunYing(threading.Thread):
 				print u"UDP端口60001收到数据"+data
 
 
-####UDP链接线程处理31500端口数据
+####UDP链接线程处理60006端口数据
 class ListenthreadUDP_WebServer(threading.Thread):
 	def __init__(self):
 		threading.Thread.__init__(self)
 	def run(self):
 		while True:
 			data,ip= mysocketUDP_WebServer.recvfrom(1024)
-			if  WebMethod(data) =="AddOnu":
-				print u"收到webserver AddOnu请求"
-				ans = json.loads(data)
-				onuinfo = ans["data"]
-				try:
-					info = AddOnu(onuinfo["Mode"],onuinfo["Mac"],onuinfo["SSID"],onuinfo["SSID-Pwd"],onuinfo["User-Pwd"],onuinfo["SN"])
-				finally:
-					if info == "datafailed":
-						print u"来自webserver传入的新增设备添加失败",onuinfo["Mac"]
-						mysocketUDP_WebServer.sendto('2001NOK',ip)
-					elif info == "datasucces":
-						print u"来自webserver传入的新增设备请求完成！新增设备mac为：",onuinfo["Mac"]
-						mysocketUDP_WebServer.sendto('1001OK',ip)
-					else:
-						print u"来自webserver传入的新增设备请求一般失败",onuinfo["Mac"]
-						mysocketUDP_WebServer.sendto('None',ip)
-			elif  WebMethod(data) =="OnuRun":
+			if  WebMethod(data) =="FindOnu":  ###web页面“新增测试设备”查询设备
 				if WebDjangoOnuAddr(data):
-					print u"收到webserver OnuRun请求"
-					info = 'None'
-					try:
-						info = WebDjangoOnuRunInfo(data)
-					finally:
-						mysocketUDP_WebServer.sendto(info,ip)
-				else:
-					print u"测试OnuMacAddr不合法！"
-					mysocketUDP_WebServer.sendto('2001NOK',ip)
-			elif  WebMethod(data) =="TestOnu":
-				if WebDjangoOnuAddr(data):
-					print u"测试OnuMacAddr合法"
-					info = 'None'
-					try:
-						info = WebDjangoTestOnuInfo(data)
-					finally:
-						mysocketUDP_WebServer.sendto(info,ip)
-				else:
-					print u"测试OnuMacAddr不合法！"
-					mysocketUDP_WebServer.sendto('2001NOK',ip)
-			elif  WebMethod(data) =="FindOnu":
-				if WebDjangoOnuAddr(data):
-					print u"测试OnuMacAddr合法"
 					info = 'None'
 					try:
 						info = WebDjangoFindOnuInfo(data)
 					finally:
 						mysocketUDP_WebServer.sendto(info,ip)
 				else:
-					print u"测试OnuMacAddr不合法！"
-					mysocketUDP_WebServer.sendto('2001NOK',ip)
+					info ={"Result":"-2"}
+					info = json.dumps(info)
+					mysocketUDP_WebServer.sendto(info,ip)
+			elif  WebMethod(data) =="AddOnu": ###web页面“新增测试设备”增加网关
+				ans = json.loads(data)
+				onuinfo = ans["data"]
+				info = 'None'
+				try:
+					info = AddOnu(onuinfo["Mode"],onuinfo["Mac"],onuinfo["SSID"],onuinfo["SSID-Pwd"],onuinfo["User-Pwd"],onuinfo["SN"])
+				finally:
+					mysocketUDP_WebServer.sendto(info,ip)
+			elif  WebMethod(data) =="OnuRun": ###web页面“平台对接测试
+				if WebDjangoOnuAddr(data):
+					info = 'None'
+					try:
+						info = WebDjangoOnuRunInfo(data)
+					finally:
+						mysocketUDP_WebServer.sendto(info,ip)
+				else:
+					info ={"Result":"-2"}
+					info = json.dumps(info)
+					mysocketUDP_WebServer.sendto(info,ip)
+			elif  WebMethod(data) =="TestOnu":###web页面“网关能力测试”
+				if WebDjangoOnuAddr(data):
+					info = 'None'
+					try:
+						info = WebDjangoTestOnuInfo(data)
+					finally:
+						mysocketUDP_WebServer.sendto(info,ip)
+				else:
+					info ={"Result":"-2"}
+					info = json.dumps(info)
+					mysocketUDP_WebServer.sendto(info,ip)
+			elif WebMethod(data) =="GetTestOnuInfo":###web页面“获取服务器快照”
+				if WebDjangoOnuAddr(data):
+					print "GetTestOnuInfo"
+					info = 'None'
+					try:
+						info = WebDjangoGetTestOnuInfo(data)
+					finally:
+						mysocketUDP_WebServer.sendto(info,ip)
+				else:
+					info ={"Result":"-2"}
+					info = json.dumps(info)
+					mysocketUDP_WebServer.sendto(info,ip)
 			else:
 				print u"webserver端口60006收到数据"+data
 			AddRecv_UdpLogs("From Webserver addonu requeset"+data,ip)	###接收到的消息添加到LOG记录
