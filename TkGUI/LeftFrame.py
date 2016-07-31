@@ -194,18 +194,17 @@ def Get_Lable_aa_list(event):
 	FenFaBoot = (0,0)
 	if Lable_aa_list.get()==u"未设置":
 		FenFaBoot = (0,0)
-		print u"未设置"
+		print u"(a)网关向分发平台注册;[未设置]"
 	elif Lable_aa_list.get()==u"返回0, 连接成功":
 		FenFaBoot=(0,0)
-		print u"返回0, 连接成功"
+		print u"(a)网关向分发平台注册;[返回0, 连接成功]"
 	elif Lable_aa_list.get()==u"返回-1，不响应":
 		FenFaBoot=(0,-1)
-		print u"返回-1，不响应"
+		print u"(a)网关向分发平台注册;[返回-1，不响应]"
 	elif Lable_aa_list.get()==u"返回-2，静默150分钟再重新注册":
 		FenFaBoot=(0,-2)
-		print u"返回-2，静默150分钟再重新注册"
+		print u"(a)网关向分发平台注册;[返回-2，静默150分钟再重新注册]"
 	Set_RunFenFaBoot(FenFaBoot)
-	print u"FenFaBoot写入成功：",Get_RunFenFaBoot()
 
 ###(b)网关向分发平台注册2
 def Get_Lable_bb_list(event):
@@ -214,21 +213,20 @@ def Get_Lable_bb_list(event):
 	FenFaRegister= (0,2)
 	if Lable_bb_list.get()==u"未设置":
 		FenFaRegister= (0,2)
-		print u"未设置"
+		print u"(b)网关向分发平台注册2;[未设置]"
 	elif Lable_bb_list.get()==u"返回2, 连接成功":
 		FenFaRegister=(0,2)
-		print u"返回2, 连接成功"
+		print u"(b)网关向分发平台注册2;[返回2, 连接成功]"
 	elif Lable_bb_list.get()==u"平台没有响应，终端应用相同服务器端口重试。":
 		FenFaRegister=(1,2)
-		print u"平台没有响应，终端应用相同服务器端口重试。"
+		print u"(b)网关向分发平台注册2;[平台没有响应，终端应用相同服务器端口重试。]"
 	elif Lable_bb_list.get()==u"运营平台响应超时，网关向分发平台发起平台注册.":
 		FenFaRegister=(2,2)
-		print u"运营平台响应超时，网关向分发平台发起平台注册."
+		print u"(b)网关向分发平台注册2;[运营平台响应超时，网关向分发平台发起平台注册.]"
 	elif Lable_bb_list.get()==u"返回-2，静默150分钟重新注册":
 		FenFaRegister=(0,-2)
-		print u"返回-2，静默150分钟重新注册"
+		print u"(b)网关向分发平台注册2;[返回-2，静默150分钟重新注册]"
 	Set_RunFenFaRegister(FenFaRegister)
-	print u"FenFaRegister写入成功：",Get_RunFenFaRegister()
 
 ###(a)网关向运营平台注册
 def Get_Lable_a_list(event):
@@ -237,21 +235,20 @@ def Get_Lable_a_list(event):
 	YunYingBoot= (0,0)
 	if Lable_a_list.get()==u"未设置":
 		YunYingBoot= (0,0)
-		print u"未设置"
+		print u"(a)网关向运营平台注册;[未设置]"
 	elif Lable_a_list.get()==u"返回0同时返回ChallengeCode。":
 		YunYingBoot= (0,0)
-		print u"返回0同时返回ChallengeCode。"
+		print u"(a)网关向运营平台注册:[返回0同时返回ChallengeCode。]"
 	elif Lable_a_list.get()==u"平台响应超时或返回-1。":
 		YunYingBoot= (0,-1)
-		print u"平台响应超时或返回-1。"
+		print u"(a)网关向运营平台注册:[平台响应超时或返回-1。]"
 	elif Lable_a_list.get()==u"返回-2时，表示网关提交信息不合法。":
 		YunYingBoot= (0,-2)
-		print u"返回-2时，表示网关提交信息不合法。"
+		print u"(a)网关向运营平台注册:[返回-2时，表示网关提交信息不合法。]"
 	elif Lable_a_list.get()==u"返回-5时，网关开始重新注册。":
 		YunYingBoot= (0,-5)
-		print u"返回-5时，网关开始重新注册。"
+		print u"(a)网关向运营平台注册:[返回-5时，网关开始重新注册。]"
 	Set_RunYunYingBoot(YunYingBoot)
-	print u"YunYingBoot写入成功：",Get_RunYunYingBoot()
 
 ###(b)网关向运营平台注册2
 def Get_Lable_b_list(event):
@@ -260,24 +257,23 @@ def Get_Lable_b_list(event):
 	YunYingRegister = (0,2)
 	if Lable_b_list.get()== u"未设置":
 		YunYingRegister = (0,2)
-		print u"未设置"
+		print u"(b)网关向运营平台注册2:[未设置]"
 	elif Lable_b_list.get()== u"返回2，UserID相同，":
 		YunYingRegister = (0,2)
-		print u"未设置"
+		print u"(b)网关向运营平台注册2:[返回2，UserID相同，]"
 	elif Lable_b_list.get()== u"返回3，UserID不相同或不存在":
 		YunYingRegister = (0,3)
-		print u"未设置"
+		print u"(b)网关向运营平台注册2:[返回3，UserID不相同或不存在]"
 	elif Lable_b_list.get()== u"平台响应超时，网关重新发起平台注册。":
 		YunYingRegister = (2,0)
-		print u"未设置"
+		print u"(b)网关向运营平台注册2:[平台响应超时，网关重新发起平台注册。]"
 	elif Lable_b_list.get()== u"返回-2时，静默150分钟":
 		YunYingRegister = (0,-2)
-		print u"未设置"
+		print u"(b)网关向运营平台注册2:[返回-2时，静默150分钟]"
 	elif Lable_b_list.get()== u"返回-5时，网关开始重新注册。":
 		YunYingRegister = (0,-5)
-		print u"未设置"
+		print u"(b)网关向运营平台注册2:[返回-5时，网关开始重新注册。]"
 	Set_RunYunYingRegister(YunYingRegister)
-	print u"YunYingRegister：",Get_RunYunYingRegister()
 
 ####(c)心跳保活
 def Get_Lable_c_list(event):
@@ -286,21 +282,20 @@ def Get_Lable_c_list(event):
 	Hb = (0,35)
 	if Lable_c_list.get() == u"未设置":
 		Hb = (0,35)
-		print u"未设置"
+		print u"(c)心跳保活;[未设置]"
 	elif Lable_c_list.get() == u"保持正常心跳，间隔30秒":
 		Hb = (0,30)
-		print u"返回2, 连接成功"
+		print u"(c)心跳保活;[返回2, 连接成功]"
 	elif Lable_c_list.get() == u"如果30秒内没有收到回复":
 		Hb = (1,0)
-		print u"如果30秒内没有收到回复"
+		print u"(c)心跳保活;[如果30秒内没有收到回复]"
 	elif Lable_c_list.get() == u"返回-3,需要网关重新向平台注册":
 		Hb = (-3,0)
-		print u"返回-3,需要网关重新向平台注册"
+		print u"(c)心跳保活;[返回-3,需要网关重新向平台注册]"
 	elif Lable_c_list.get() == u"返回-5,网关重新连接其它服务器":
 		Hb = (-5,0)
-		print u"返回-5,网关重新连接其它服务器"
+		print u"(c)心跳保活;[返回-5,网关重新连接其它服务器]"
 	Set_RunHb(Hb)
-	print u"Hb：",Get_RunHb()
 
 ###(d)反向触发网关到插件中心
 def Get_Lable_d_list(event):
@@ -309,15 +304,14 @@ def Get_Lable_d_list(event):
 	RequestPlug = (0,1)
 	if Lable_d_list.get() == u"未设置":
 		RequestPlug = (0,1)
-		print u"未设置"
+		print u"(d)反向触发网关到插件中心;[未设置]"
 	elif Lable_d_list.get() == u"正常流程测试":
 		RequestPlug = (0,1)
-		print u"正常流程测试"
+		print u"(d)反向触发网关到插件中心;[正常流程测试]"
 	elif Lable_d_list.get() == u"平台返回-1，重新开始网关向平台注册":
 		RequestPlug = (0,-1)
-		print u"平台返回-1，重新开始网关向平台注册"
+		print u"(d)反向触发网关到插件中心;[平台返回-1，重新开始网关向平台注册]"
 	Set_RunYunYingRequestPlug(RequestPlug)
-	print u"RequestPlug:",Get_RunYunYingRequestPlug()
 
 ###(e)反向触发网关重新注册
 def Get_Lable_e_list(event):
@@ -326,15 +320,14 @@ def Get_Lable_e_list(event):
 	RequestDistri = (0,0)
 	if Lable_e_list.get() == u"未设置":
 		RequestDistri = (0,0)
-		print u"未设置"
+		print u"(e)反向触发网关重新注册;[未设置]"
 	elif Lable_e_list.get() == u"正常流程测试":
 		RequestDistri = (0,0)
-		print u"正常流程测试"
+		print u"(e)反向触发网关重新注册;[正常流程测试]"
 	elif Lable_e_list.get() == u"平台返回-1，重新开始网关向平台注册":
 		RequestDistri = (0,-1)
-		print u"平台返回-1，重新开始网关向平台注册"
+		print u"(e)反向触发网关重新注册:[平台返回-1，重新开始网关向平台注册]"
 	Set_RunYunYingRequestDistri(RequestDistri)
-	print u"RunChaJianRegister: ",Get_RunYunYingRequestDistri()
 
 ###(f)反向触发网关重新注册
 def Get_Lable_f_list(event):
@@ -342,9 +335,8 @@ def Get_Lable_f_list(event):
 	#"未设置","触发网关和插件中心断开连接！"
 	Disconnect = ()
 	if Lable_f_list.get() == u"未设置":
-		print u"未设置"
+		print u"(f)反向触发网关重新注册;[未设置]"
 	elif Lable_f_list.get() == u"触发网关和插件中心断开连接！":
 		Disconnect = (0,0)
-		print u"触发网关和插件中心断开连接"
+		print u"(f)反向触发网关重新注册;[触发网关和插件中心断开连接]"
 	Set_RunChaJianDisconnect(Disconnect)
-	print u"Disconnect",Get_RunChaJianDisconnect()

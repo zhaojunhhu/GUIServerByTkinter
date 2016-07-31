@@ -1,250 +1,0 @@
-2016-07-29 21:01:51.096000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:01:51.101000UdpSend>>>>>{"Result": 0, "ChallengeCode": "79857D339A24B5C1FE0AE2B1684D6FC0"}
-2016-07-29 21:01:51.118000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "0C0390B0A0FF76BD8E85CE3035C35B0D" }
-2016-07-29 21:01:51.127000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:01:51.191000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "081117252E323D48505B6D7781838F96", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:01:51.196000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "40CBD50257D9876A3121FB38AFE9E46C"}
-2016-07-29 21:01:51.266000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "90E93B06BFEA4D568AD075D002F4ECCF", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "081117252E323D48505B6D7781838F96", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:01:51.278000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:01:51.293000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:01:51.299000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:01:51.309000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "328CA6C80857CA904EE1421FA437CF6E", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:01:51.330000UdpRecv<<<<<{ "Result": 0, "DevRND": "081117252E323D48505B6D7781838F96" }
-2016-07-29 21:01:51.336000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:02:22.960000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:02:22.968000UdpSend>>>>>{"Result": 0, "ChallengeCode": "EDB01398DC7B42F874A6C5F29A01E563"}
-2016-07-29 21:02:22.984000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "395014EDB90BFBCA0B52EE26BB4007E4" }
-2016-07-29 21:02:22.999000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:02:23.071000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "070E19232D333D48535D6B747F858C98", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:02:23.079000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "90A4176594DC0F3E72C8183EBF526ADB"}
-2016-07-29 21:02:23.143000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "DC48DA776ABE74FF9F16243C1F8EDF56", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "070E19232D333D48535D6B747F858C98", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:02:23.158000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:02:23.173000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:02:23.183000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:02:23.189000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "0CDADEA0D4B30729DFEE6BBEE2849236", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:02:23.208000UdpRecv<<<<<{ "Result": 0, "DevRND": "070E19232D333D48535D6B747F858C98" }
-2016-07-29 21:02:23.213000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:02:28.667000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:02:28.679000UdpSend>>>>>{"Result": 0, "ChallengeCode": "02E47765AC4A81F95C38B0DD96EF32B1"}
-2016-07-29 21:02:28.693000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "6BF2A50667978491B79BFBD8F5B95E36" }
-2016-07-29 21:02:28.711000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:02:28.778000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "040E1C222E3B444F56626C6F79838C9B", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:02:28.782000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "B970970FC641835EC5126BA43FD8AE2D"}
-2016-07-29 21:02:28.845000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "25A54F55B874B5399714BE7BFD874FC0", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "040E1C222E3B444F56626C6F79838C9B", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:02:28.852000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:02:28.863000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:02:28.867000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:02:28.871000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "58BDEFCF9E7ECA617C40CDBDB0188A79", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:02:28.887000UdpRecv<<<<<{ "Result": 0, "DevRND": "040E1C222E3B444F56626C6F79838C9B" }
-2016-07-29 21:02:28.891000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:02:40.887000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:02:40.890000UdpSend>>>>>{"Result": 0, "ChallengeCode": "46348AE059FD39C8EB7F51B7A0622C1D"}
-2016-07-29 21:02:40.906000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "512AC0E7B7E1ED385B2982B702200755" }
-2016-07-29 21:02:40.913000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:02:40.985000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "020E19252B383D4B535E6D737C899096", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:02:40.988000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "6A1ED4D90532FCBE77346F8215B09C8A"}
-2016-07-29 21:02:41.056000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "BCC4C4F2622DBDD1551BF8D2A6472D24", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "020E19252B383D4B535E6D737C899096", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:02:41.062000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:02:41.076000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:02:41.079000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:02:41.084000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "0C676CC8EA955B0B480660A57530AD9D", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:02:41.095000UdpRecv<<<<<{ "Result": 0, "DevRND": "020E19252B383D4B535E6D737C899096" }
-2016-07-29 21:02:41.099000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:02:43.597000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:02:43.604000UdpSend>>>>>{"Result": 0, "ChallengeCode": "0F143C82FA3585D4BEA1E7609B26CD97"}
-2016-07-29 21:02:43.627000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "7F372A086F0EEE151F876FCAAB5764EA" }
-2016-07-29 21:02:43.682000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:02:43.748000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "0810182529393E4F5760686E7F8B949A", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:02:43.755000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "3A56A5D1FB848722694F173C00DBC9EE"}
-2016-07-29 21:02:43.815000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "74AD4C27488E7C2D2A6978C5023877FF", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "0810182529393E4F5760686E7F8B949A", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:02:43.823000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:02:43.835000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:02:43.839000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:02:43.844000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "56FE29F15D0E06849819EA4D32748647", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:02:43.856000UdpRecv<<<<<{ "Result": 0, "DevRND": "0810182529393E4F5760686E7F8B949A" }
-2016-07-29 21:02:43.861000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:02:53.565000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:02:53.570000UdpSend>>>>>{"Result": 0, "ChallengeCode": "3674C8D6E083F5C7E2FDBA02A1B99541"}
-2016-07-29 21:02:53.591000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "32D6BA8AA7F59112104676712560B45E" }
-2016-07-29 21:02:53.597000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:02:53.667000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "03121D272C3B444E585A64747A868F9B", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:02:53.674000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "07C2B3C4DEF8AEF4698101952536B7DA"}
-2016-07-29 21:02:53.742000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "FE9B2554FF3E82CCE1A06059350E63CC", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "03121D272C3B444E585A64747A868F9B", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:02:53.754000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:02:53.767000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:02:53.774000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:02:53.784000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "7032200C833324A0BC4B49D000C4B82A", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:02:53.797000UdpRecv<<<<<{ "Result": 0, "DevRND": "03121D272C3B444E585A64747A868F9B" }
-2016-07-29 21:02:53.804000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:03:28.789000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
-2016-07-29 21:03:28.793000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:04:03.677000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
-2016-07-29 21:04:03.688000UdpSend>>>>>{"Result": 0, "ChallengeCode": "6FC806DF50453CE7A2A181BEDB439279"}
-2016-07-29 21:04:03.702000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "B716AB83ED9B60A30891843A0D61929D" }
-2016-07-29 21:04:03.712000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "116.224.100.196", "ServerPort": 60001}
-2016-07-29 21:04:03.779000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "0411152630363D4B52636B727B878E9D", "PlatformID": "OSGI", "Card": "" }
-2016-07-29 21:04:03.783000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "1F38ED084350FAE7B96A5DC7C6142B92"}
-2016-07-29 21:04:03.845000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "50CA5F971D7164A2B338FB25284B5989", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "0411152630363D4B52636B727B878E9D", "flag": 0, "pppoename": "tw1" }
-2016-07-29 21:04:03.852000UdpSend>>>>>{"MessageServer": "116.224.100.196:60001", "Result": 2, "UPDATEServer": "116.224.100.196"}
-2016-07-29 21:04:03.864000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
-2016-07-29 21:04:03.867000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-29 21:04:03.873000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "116.224.100.196", "Key": "CF7DF15F1860C47D671AE802561FEDDB", "RPCMethod": "RequestPlug-in"}
-2016-07-29 21:04:03.886000UdpRecv<<<<<{ "Result": 0, "DevRND": "0411152630363D4B52636B727B878E9D" }
-2016-07-29 21:04:03.891000UdpSend>>>>>{"Result": 1}
-2016-07-29 21:04:38.886000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
-2016-07-29 21:04:38.904000UdpSend>>>>>{"Interval": 35, "Result": 0}
-2016-07-30 22:18:04.229000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:22:08.383000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:22:20.605000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:23:15.683000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:25:00.008000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:25:16.261000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:25:19.519000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:25:22.315000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:27:40.189000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:28:04.117000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:28:07.158000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:32:17.600000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:32:20.263000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:32:21.612000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:33:09.197000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "78D99F6B67FA", "CmdType": "FindOnu"}
-2016-07-30 22:33:19.835000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "78D99F6B67FA", "CmdType": "FindOnu"}
-2016-07-30 22:33:22.659000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:33:25.132000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "78D99F6B67FA", "CmdType": "FindOnu"}
-2016-07-30 22:33:31.516000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:33:33.294000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:33:34.284000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:34:00.831000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:34:35.933000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:37:21.524000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:38:09.886000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:40:40.120000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:40:43.164000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "CmdType": "FindOnu"}
-2016-07-30 22:41:37.983000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:41:40.771000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "CmdType": "FindOnu"}
-2016-07-30 22:42:44.672000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:42:46.868000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "CmdType": "FindOnu"}
-2016-07-30 22:42:49.975000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:49:18.127000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:49:20.804000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:49:24.556000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:51:46.972000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 22:51:48.575000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:52:02.181000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "1122334455", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:53:15.579000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:53:37.264000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:53:40.334000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "1122334455", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:53:47.048000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-", "SSID-Pwd": "", "Mac": "115", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:53:58.429000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "111", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:54:32.691000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:54:35.634000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "2", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 22:54:56.205000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "1234", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:00:10.621000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:00:25.693000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:00:51.942000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:01:47.606000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:01:52.471000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "222", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:01:58.021000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:02:10.711000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "23231245", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:09:14.570000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 23:09:24.556000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233000000", "CmdType": "FindOnu"}
-2016-07-30 23:09:28.813000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:09:43.544000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "0000000", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:09:48.980000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "0000000", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:10:00.435000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "00000000", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:12:39.561000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-4224", "SSID-Pwd": "00000000", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:12:42.175000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:12:43.158000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:12:43.636000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:12:49.262000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:13:23.982000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:15:12.613000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:17:19.502000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:20:36.943000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "1122334455", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:21:40.882000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "1122334455", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:22:19.615000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "1122334455", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:22:25.074000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:36:29.623000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:46:52.078000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "CmdType": "FindOnu"}
-2016-07-30 23:46:53.558000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 23:47:01.067000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-", "SSID-Pwd": "5555777888", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:47:09.927000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "85540000", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:47:19.253000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 23:47:21.561000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:47:23.127000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-30 23:47:38.926000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344550", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:47:47.468000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:47:53.698000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:48:55.440000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "-1", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:49:48.239000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "1122334455", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:49:57.365000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233440000", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:51:10.095000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:51:19.815000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445500", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:51:24.483000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "CmdType": "FindOnu"}
-2016-07-30 23:51:53.247000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "data": {"YunYingBoot": "0", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "-5", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:52:01.893000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445569", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:52:09.521000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:55:46.609000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "0", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:57:07.224000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "-2", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:57:22.992000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "-2", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:57:35.702000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "0", "FenFaRegisterFirst": "-2"}, "CmdType": "OnuRun"}
-2016-07-30 23:57:49.213000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "-2", "FenFaRegisterFirst": "-2"}, "CmdType": "OnuRun"}
-2016-07-30 23:58:04.397000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "0", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "3", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:58:20.229000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "-1", "YunYingHb": "-1", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:58:35.814000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "-1", "ChaJianAA6": "0", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:58:43.743000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:58:44.092000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:58:48.423000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "1122334455", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:59:14.846000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "1122334455", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:59:16.613000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "00", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-30 23:59:23.276000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "11223344556", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-30 23:59:29.375000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "0", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-31 00:06:13.397000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "data": "{\"RPCMethod\":\"Post\" , \"ID\":0000,\"Plugin_Name\": \"test\",\"Version\":\"1.0\",\"Parameter\":{\"CmdType\":\"QUERY_CPU_INFO\", \"SequenceId\":\"1234567b\"}}", "CmdType": "TestOnu"}
-2016-07-31 00:12:51.808000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": "{\"RPCMethod\":\"Post\" , \"ID\":0000,\"Plugin_Name\": \"test\",\"Version\":\"1.0\",\"Parameter\":{\"CmdType\":\"QUERY_CPU_INFO\", \"SequenceId\":\"1234567b\"}}", "CmdType": "TestOnu"}
-2016-07-31 00:12:54.974000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-31 00:12:57.118000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": "{\"RPCMethod\":\"Post\" , \"ID\":0000,\"Plugin_Name\": \"test\",\"Version\":\"1.0\",\"Parameter\":{\"CmdType\":\"QUERY_CPU_INFO\", \"SequenceId\":\"1234567b\"}}", "CmdType": "TestOnu"}
-2016-07-31 00:13:14.680000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": {"YunYingBoot": "00", "ChaJianAA5": "00", "ChaJianAA6": "00", "YunYingRequestPlug": "00", "YunYingHb": "00", "YunYingRegister": "-5", "FenFaBootFirst": "00", "FenFaRegisterFirst": "00"}, "CmdType": "OnuRun"}
-2016-07-31 00:20:54.338000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:20:57.764000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "11223344556", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:21:03.080000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:21:07.701000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:21:32.152000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:24:16.407000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:25:25.149000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:26:06.230000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445560", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:26:08.264000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:26:21.549000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:26:51.247000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:29:40.863000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": "{\"RPCMethod\":\"Post\" , \"ID\":0000,\"Plugin_Name\": \"test\",\"Version\":\"1.0\",\"Parameter\":{\"CmdType\":\"QUERY_CPU_INFO\", \"SequenceId\":\"1234567b\"}}", "CmdType": "TestOnu"}
-2016-07-31 00:29:43.069000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:38:50.317000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:38:53.594000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-31 00:41:24.838000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:41:37.004000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445500", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-31 00:41:49.868000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:42:08.115000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445511", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:42:13.406000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:43:55.211000UdpRecv<<<<<  BI         À¨aê 
-2016-07-31 00:44:53.804000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:44:55.557000UdpRecv<<<<<  BI         À¨aê 
-2016-07-31 00:45:25.654000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:45:28.356000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:45:34.361000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:45:40.564000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:45:56.371000UdpRecv<<<<<  BI         À¨aê 
-2016-07-31 00:46:18.586000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:46:21.493000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445500", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:50:34.147000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:50:57.158000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:52:54.425000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:53:34.887000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-31 00:53:37.130000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "12345", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-31 00:53:40.871000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-31 00:53:47.370000UdpRecv<<<<<From Webserver addonu requeset{"data": {"SSID": "ChinaNet-0000", "SSID-Pwd": "12345678", "Mac": "112233445566", "SN": "123456-12345001122334455", "User-Pwd": "32154", "Mode": "ZXHN F450G"}, "CmdType": "AddOnu"}
-2016-07-31 00:53:48.612000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "FindOnu"}
-2016-07-31 00:53:59.934000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "data": "{\"RPCMethod\":\"Post\" , \"ID\":0000,\"Plugin_Name\": \"test\",\"Version\":\"1.0\",\"Parameter\":{\"CmdType\":\"QUERY_CPU_INFO\", \"SequenceId\":\"1234567b\"}}", "CmdType": "TestOnu"}
-2016-07-31 00:54:14.981000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:56:16.017000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:57:06.990000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-2016-07-31 00:57:21.426000UdpRecv<<<<<From Webserver addonu requeset{"OnumacAddr": "112233445566", "CmdType": "GetTestOnuInfo"}
-
