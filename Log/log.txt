@@ -1,0 +1,290 @@
+
+2016-08-01 10:11:36.639000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:11:36.641000UdpSend>>>>>{"Result": 0, "ChallengeCode": "6A8CE7D414FB2D69F705A3B15C82903E"}
+2016-08-01 10:11:36.668000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "941C28D0E72B1FC4E1BC0256A4DCBDBB" }
+2016-08-01 10:11:36.671000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:11:36.764000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "06121D202F3A414D586164708183909E", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:11:36.764000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "498D01B7DF458FCE729B23066AA351CE"}
+2016-08-01 10:11:36.869000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "1AD6EB7E37ECD939EC9BAC52D41099CB", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "050C161E2A32444B505C697280849498", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:11:36.871000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:11:36.889000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:11:36.890000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:11:36.893000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "9C555363E280E8E2262A579D25AE16AE", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:11:36.906000UdpRecv<<<<<{ "Result": 0, "DevRND": "050C161E2A32444B505C697280849498" }
+2016-08-01 10:11:36.906000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:11:41.778000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:11:41.778000UdpSend>>>>>{"Result": 0, "ChallengeCode": "D76E39FEA2D614B57CFAB082C1804359"}
+2016-08-01 10:11:41.797000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "96B877030FEAB0D1E3C0D24AF66C7E33" }
+2016-08-01 10:11:41.798000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:11:41.874000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "02121B2030384250566164757B8C9496", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:11:41.874000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "FA34699CB58D6317ED85FA17E004B2C2"}
+2016-08-01 10:11:42.003000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "C2D43469A0E569E98838AEB1942A0630", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "02121B2030384250566164757B8C9496", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:11:42.005000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:11:42.035000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:11:42.035000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:11:42.036000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "08E791CBA84EC3780885D43D05C6A013", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:11:42.055000UdpRecv<<<<<{ "Result": 0, "DevRND": "02121B2030384250566164757B8C9496" }
+2016-08-01 10:11:42.055000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:12:17.060000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:12:17.061000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:12:52.084000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:12:52.085000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:13:27.104000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:13:27.104000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:14:02.122000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:14:02.123000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:14:37.143000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:14:37.143000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:15:12.164000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:15:12.165000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:15:32.727000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:15:32.728000UdpSend>>>>>{"Result": 0, "ChallengeCode": "608F99B473E576D131A4CE2CF508BD2A"}
+2016-08-01 10:15:32.768000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "1BEC4A714BBF81B3C9E22960EFA3F460" }
+2016-08-01 10:15:32.769000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:15:32.843000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "05111A242933414751616B747886909D", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:15:32.843000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "F1392D2103ACC457D5B68B8409AF6EE7"}
+2016-08-01 10:15:32.935000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "F26C5D688AD4E2EBE6724D7AB43B07AC", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "05111A242933414751616B747886909D", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:15:32.937000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:15:32.948000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:15:32.948000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:15:32.949000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "EA535E28F3F1F63F291F82DAB8E4441C", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:15:32.965000UdpRecv<<<<<{ "Result": 0, "DevRND": "05111A242933414751616B747886909D" }
+2016-08-01 10:15:32.966000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:16:07.972000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:16:07.972000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:16:42.993000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:16:42.993000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:17:18.014000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:17:18.014000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:17:53.037000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:17:53.038000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:18:28.077000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:18:28.077000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:19:03.098000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:19:03.098000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:19:20.291000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:19:20.293000UdpSend>>>>>{"Result": 0, "ChallengeCode": "2F097D3D9714B8A2E6B0C43658FC1E5A"}
+2016-08-01 10:19:20.309000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "D4F248C3CB4BA90318E66E4B99F9EFA2" }
+2016-08-01 10:19:20.312000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:19:20.391000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "040A1C2129354147556468717984919C", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:19:20.392000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "E7851B6A3D0DB40FCCA59E396F827124"}
+2016-08-01 10:19:20.463000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "193AD5AA035691347575B72BC74917ED", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "040A1C2129354147556468717984919C", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:19:20.466000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:19:20.481000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:19:20.481000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:19:20.483000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "05C14FE7A379DDB59DBDCA18BD7CA5EC", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:19:20.501000UdpRecv<<<<<{ "Result": 0, "DevRND": "040A1C2129354147556468717984919C" }
+2016-08-01 10:19:20.502000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:19:55.500000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:19:55.502000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:20:30.522000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:20:30.522000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:20:40.251000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:20:40.252000UdpSend>>>>>{"Result": 0, "ChallengeCode": "736B5E4A94CF2D82B7F653D91A0E018C"}
+2016-08-01 10:20:40.305000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "D59361036351220A48D6D8E12B145BE5" }
+2016-08-01 10:20:40.308000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:20:40.378000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "060F19272B36454D545C6A717A858F9E", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:20:40.378000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "A54037875AFD0B29C93668CB1EED2F41"}
+2016-08-01 10:20:40.443000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "5B25BEFCE0E8C3B4CCE84643B45101A1", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "060F19272B36454D545C6A717A858F9E", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:20:40.445000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:20:40.460000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:20:40.460000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:20:40.461000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "7ABEF422506AE793C60D028C4BBAB60D", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:20:40.481000UdpRecv<<<<<{ "Result": 0, "DevRND": "060F19272B36454D545C6A717A858F9E" }
+2016-08-01 10:20:40.482000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:20:44.164000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:20:44.165000UdpSend>>>>>{"Result": 0, "ChallengeCode": "172F3CA4B0E65C172963A0E48DBF895D"}
+2016-08-01 10:20:44.181000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "92E5DF5F1B20A9282EE817FA3FED149C" }
+2016-08-01 10:20:44.182000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:20:44.252000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "050C162529353F495760667880878F98", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:20:44.252000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "E8DABFC39C1B9265A274E870F430165D"}
+2016-08-01 10:20:44.350000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "ED9AB09CED1FD66DFB14948CC4C75658", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "050C162529353F495760667880878F98", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:20:44.352000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:20:44.366000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:20:44.366000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:20:44.367000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "536D0B4ED79764A5960B762BAABA0B6B", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:20:44.481000UdpRecv<<<<<{ "Result": 0, "DevRND": "050C162529353F495760667880878F98" }
+2016-08-01 10:20:44.481000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:21:19.386000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:21:19.387000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:21:34.350000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:21:34.351000UdpSend>>>>>{"Result": 0, "ChallengeCode": "D77953164AB2034BF806E9CD21A8C5FE"}
+2016-08-01 10:21:34.364000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "2EA74FC73A21B5283A420A741E206BAC" }
+2016-08-01 10:21:34.365000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:21:34.443000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "041217202B3B3F4C595D6A738183949D", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:21:34.444000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "C079BEFAC4B80D516394185D267FE2A3"}
+2016-08-01 10:21:34.511000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "F9ABA18BEC18B216FA0C660AC3EF4948", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "041217202B3B3F4C595D6A738183949D", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:21:34.512000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:21:34.536000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:21:34.537000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:21:34.539000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "107FFEE36E989E56A95A8A9A7B0DE055", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:21:34.568000UdpRecv<<<<<{ "Result": 0, "DevRND": "041217202B3B3F4C595D6A738183949D" }
+2016-08-01 10:21:34.569000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:22:09.608000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:22:09.608000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:22:41.738000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:22:41.738000UdpSend>>>>>{"Result": 0, "ChallengeCode": "708CA2B39F121EE056BF9346D8A475DC"}
+2016-08-01 10:22:41.757000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "9ABD03C0690A836155B64E552EC630D9" }
+2016-08-01 10:22:41.758000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:22:41.825000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "030E18273036454D575A6C737A88949F", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:22:41.826000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "63B98FE352067D59CF102CA7A4BE814D"}
+2016-08-01 10:22:41.895000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "A8C2254BF6FBDB3718AB927487D26013", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "030E18273036454D575A6C737A88949F", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:22:41.896000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:22:41.914000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:22:41.914000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:22:41.915000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "A4BB458688E9FDD2231B521BC5CA9436", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:22:41.926000UdpRecv<<<<<{ "Result": 0, "DevRND": "030E18273036454D575A6C737A88949F" }
+2016-08-01 10:22:41.926000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:23:25.816000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:23:25.817000UdpSend>>>>>{"Result": 0, "ChallengeCode": "02A84153DBCBD918EAF0E6675972C3F4"}
+2016-08-01 10:23:25.836000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "49331A2974F4CAC3EE0880BD1503D521" }
+2016-08-01 10:23:25.838000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:23:25.906000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "00101B1E3133444751626675808B9597", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:23:25.907000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "A5125D776863F34BEEA9C8D2B0419CF0"}
+2016-08-01 10:23:25.981000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "AC878FFC0AB2788CB1B8DC79C5BFAC23", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "00101B1E3133444751626675808B9597", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:23:25.982000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:23:26.003000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:23:26.003000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:23:26.005000UdpSend>>>>>{"ServerPort": "60004", "ServerAddr": "218.80.221.65", "Key": "9A7ED6C464FFF706E304C8577F061A06", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:23:26.023000UdpRecv<<<<<{ "Result": 0, "DevRND": "00101B1E3133444751626675808B9597" }
+2016-08-01 10:23:26.023000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:24:01.023000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:24:01.024000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:27:58.455000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:27:58.456000UdpSend>>>>>{"Result": 0, "ChallengeCode": "8917A84F9416BEBA6C35CE32075FD02D"}
+2016-08-01 10:27:58.617000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "AB49D40AE8586298417F383E5D80E7D7" }
+2016-08-01 10:27:58.619000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:27:58.690000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "0513151F2D383C4A525D6C757D828D98", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:27:58.691000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "EDD268B545971C080F372AEFB39C614A"}
+2016-08-01 10:27:58.751000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "C1B1E4577F65A6050B4EEB6C86594473", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "0513151F2D383C4A525D6C757D828D98", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:27:58.752000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:27:58.767000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:27:58.767000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:27:58.768000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "36F48EB68B8587B2B7147E27C0320C02", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:27:58.779000UdpRecv<<<<<{ "Result": 0, "DevRND": "041318272C363F48506367777C879297" }
+2016-08-01 10:27:58.779000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:28:33.788000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:28:33.789000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:29:08.813000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:29:08.814000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:29:43.860000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:29:43.861000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:30:18.894000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:30:18.894000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:30:53.995000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:30:53.996000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:31:29.015000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:31:29.015000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:33:14.134000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "030F16252E364247535B67777B8A919A", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:33:14.135000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "C02F78BA399E25063DD847FC1E5A146B"}
+2016-08-01 10:33:14.234000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "AB5EC7FC29B18CB0C583F282F8F34DBA", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "030F16252E364247535B67777B8A919A", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:33:14.236000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:33:14.278000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:33:14.278000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:33:14.279000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "B78E3801CC740FC59B34E5D565C93500", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:33:14.302000UdpRecv<<<<<{ "Result": 0, "DevRND": "030F16252E364247535B67777B8A919A" }
+2016-08-01 10:33:14.303000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:33:49.301000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:33:49.302000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:34:02.173000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 10:34:02.174000UdpSend>>>>>{"Result": 0, "ChallengeCode": "8B719A4153259B6C274F0ADD6CFE803E"}
+2016-08-01 10:34:02.223000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "91A5D13B7AAA983ABB58224A4916EE1F" }
+2016-08-01 10:34:02.225000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 10:34:02.316000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "050D16242C324049595B6B75788A8D96", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:34:02.317000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "1B8D1230820774A94F5BA69CECEF63D5"}
+2016-08-01 10:34:02.488000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "40CA064B6AAF385D164ED4E2B305E914", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "050D16242C324049595B6B75788A8D96", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:34:02.490000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:34:02.646000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:34:02.646000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:34:02.647000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "6CD038CF0B757635768975B27503E7B4", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:34:02.661000UdpRecv<<<<<{ "Result": 0, "DevRND": "050D16242C324049595B6B75788A8D96" }
+2016-08-01 10:34:02.662000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:34:37.694000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:34:37.695000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:35:12.731000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:35:12.732000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:35:47.784000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:35:47.784000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:36:22.853000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:36:22.854000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:36:57.893000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:36:57.894000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:37:32.912000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:37:32.913000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:38:07.934000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:38:07.934000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:38:42.963000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:38:42.963000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:39:17.991000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:39:17.991000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:40:28.025000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:40:28.026000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:45:43.369000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "02131D1E2F3A414C515A6D7481838E98", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 10:45:43.369000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "6918D09A737F2BD3C84105E6F5B2EAC4"}
+2016-08-01 10:45:43.447000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "3F5BB09CDCDB98CE1BA7B2B5F3F504F8", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "02131D1E2F3A414C515A6D7481838E98", "flag": 0, "pppoename": "tw1" }
+2016-08-01 10:45:43.448000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 10:45:43.463000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 10:45:43.464000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:45:43.466000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "FD282602FB3731A03744ABE8BA856A0B", "RPCMethod": "RequestPlug-in"}
+2016-08-01 10:45:43.484000UdpRecv<<<<<{ "Result": 0, "DevRND": "02131D1E2F3A414C515A6D7481838E98" }
+2016-08-01 10:45:43.485000UdpSend>>>>>{"Result": 1}
+2016-08-01 10:46:18.490000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:46:18.492000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:46:53.514000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:46:53.515000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 10:47:28.537000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 10:47:28.537000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:00:35.808000TcpRecv<<<<<
+2016-08-01 11:01:53.290000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 11:01:53.291000UdpSend>>>>>{"Result": 0, "ChallengeCode": "3CE89AB20F46F038A29CDD14B7565E71"}
+2016-08-01 11:01:53.362000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "845C67DD117CC851823D7EF5F93BD5BB" }
+2016-08-01 11:01:53.364000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 11:01:53.432000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "0810181E2A32434E596069707F858D96", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 11:01:53.432000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "C1BDCE23A5725F04B3966A7104FD898E"}
+2016-08-01 11:01:53.504000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "7CB4209B8896079F31C1E8AC69F00D19", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "0810181E2A32434E596069707F858D96", "flag": 0, "pppoename": "tw1" }
+2016-08-01 11:01:53.505000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 11:01:53.532000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 11:01:53.532000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:01:53.533000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "DEFB2183950C160AA197A176F39EA477", "RPCMethod": "RequestPlug-in"}
+2016-08-01 11:01:53.566000UdpRecv<<<<<{ "Result": 0, "DevRND": "0810181E2A32434E596069707F858D96" }
+2016-08-01 11:01:53.566000UdpSend>>>>>{"Result": 1}
+2016-08-01 11:02:28.576000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:02:28.576000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:03:03.600000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:03:03.600000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:03:23.391000UdpRecv<<<<<{ "RPCMethod": "BootFirst", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "PlatformID": "OSGI" }
+2016-08-01 11:03:23.391000UdpSend>>>>>{"Result": 0, "ChallengeCode": "1CCD39EDA1F049AF8EB05B5622748736"}
+2016-08-01 11:03:23.414000UdpRecv<<<<<{ "RPCMethod": "RegisterFirst", "MAC": "78D99F6B67FA", "CheckSN": "91EDEBA1F3DD6689CEBC2FFCF167F0A4" }
+2016-08-01 11:03:23.415000UdpSend>>>>>{"Interval": 60, "Result": 2, "ServerAddr": "218.80.221.65", "ServerPort": 60001}
+2016-08-01 11:03:23.505000UdpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "OsVer": "1.0", "AppVer": "3.0", "MAC": "78D99F6B67FA", "LOID": "", "IPAddr": "10.188.117.165", "DevRND": "010C16212B363D49545C68717B87949F", "PlatformID": "OSGI", "Card": "" }
+2016-08-01 11:03:23.505000UdpSend>>>>>{"flag": "1", "Interval": 35, "Result": 0, "ChallengeCode": "E2E6D1C563A054BF9184A7FBD873C290"}
+2016-08-01 11:03:23.573000UdpRecv<<<<<{ "RPCMethod": "Register", "MAC": "78D99F6B67FA", "CheckSN": "A412B5021A13567A9F2DEF88640D3BD7", "UserID": "93F67230B038A911A3B3BB2725C31DAE", "DevRND": "010C16212B363D49545C68717B87949F", "flag": 0, "pppoename": "tw1" }
+2016-08-01 11:03:23.574000UdpSend>>>>>{"MessageServer": "218.80.221.65:60001", "Result": 2, "UPDATEServer": "218.80.221.65"}
+2016-08-01 11:03:23.585000UdpRecv<<<<<{ "RPCMethod": "Hb", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA", "FLAG": "1" }
+2016-08-01 11:03:23.586000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:03:23.587000UdpSend>>>>>{"ServerPort": "60002", "ServerAddr": "218.80.221.65", "Key": "C060B878F46FA22605D0D264691DC847", "RPCMethod": "RequestPlug-in"}
+2016-08-01 11:03:23.599000UdpRecv<<<<<{ "Result": 0, "DevRND": "010C16212B363D49545C68717B87949F" }
+2016-08-01 11:03:23.599000UdpSend>>>>>{"Result": 1}
+2016-08-01 11:03:23.702000TcpRecv<<<<<{ "RPCMethod": "Boot", "Vendor": "ALCL", "Model": "E-140W-P", "FirmwareVer": "ASB_E140WV1.0S", "HardwareVer": "E140WV1B1", "MAC": "78D99F6B67FA", "IPAddr": "10.188.117.165", "LOID": "", "Card": "" }
+2016-08-01 11:03:23.702000TcpSend>>>>>{"Result": 0, "ChallengeCode": "48ECAD620125BF691330B7759EFC8AD4"}
+2016-08-01 11:03:23.787000TcpRecv<<<<<{ "RPCMethod": "Register", "CheckSN": "A090B1D0858B450F7B09D06790D31DA9" }
+2016-08-01 11:03:23.787000TcpSend>>>>>{"Result": 0}
+2016-08-01 11:03:58.613000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:03:58.613000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:04:33.664000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:04:33.665000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:05:03.826000TcpRecv<<<<<{ "RPCMethod": "Heartbeat", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA" }
+2016-08-01 11:05:03.827000TcpSend>>>>>{"Result": 0}
+2016-08-01 11:05:08.682000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:05:08.683000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:05:43.703000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:05:43.704000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:06:18.741000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:06:18.742000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:06:43.847000TcpRecv<<<<<{ "RPCMethod": "Heartbeat", "IPAddr": "10.188.117.165", "MAC": "78D99F6B67FA" }
+2016-08-01 11:06:43.847000TcpSend>>>>>{"Result": 0}
+2016-08-01 11:06:53.765000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:06:53.766000UdpSend>>>>>{"Interval": 35, "Result": 0}
+2016-08-01 11:07:28.783000UdpRecv<<<<<{ "RPCMethod": "Hb", "MAC": "78D99F6B67FA", "FLAG": "0" }
+2016-08-01 11:07:28.784000UdpSend>>>>>{"Interval": 35, "Result": 0}
+

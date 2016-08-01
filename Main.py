@@ -103,8 +103,8 @@ lt_UDP_Fenfa = ListenthreadUDP_Fenfa(MyWindows)		##UDP 分发端口12112
 lt_UDP_YunYing = ListenthreadUDP_YunYing(MyWindows) ##UDP 分发端口60001
 lt_UDP_WebServer = ListenthreadUDP_WebServer()
 lt_TCP_Fenfa = ListenthreadTCP_Fenfa()		##TCP 分发端口12112
-lt_TCP_YunYing = ListenthreadTCP_YunYing(MyWindows)		##TCP 运营端口60001
-lt_TCP_ChaJian = ListenthreadTCP_ChaJian()			##TCP 插件端口60002
+lt_TCP_YunYing = ListenthreadTCP_YunYing()		##TCP 运营端口60001
+lt_TCP_ChaJian = ListenthreadTCP_ChaJian(MyWindows)			##TCP 插件端口60002
 
 #lt_UDP_Fenfa .setDaemon(True)#设置线程为“守护线程”在没有用户线程可服务时会自动离开。
 #lt_UDP_YunYing .setDaemon(True)
@@ -121,5 +121,3 @@ lt_TCP_ChaJian.start()
 MyWindows.MainLoop()
 root.protocol('WM_DELETE_WINDOW',printProtocol)
 root.mainloop()
-
-#zheshiyigeceshi

@@ -14,27 +14,27 @@ class ListenthreadTCP_Fenfa(threading.Thread):
 		threading.Thread.__init__(self)
 	def run(self):
 		##监控12112端口，引入TCP处理类
-		server = ThreadingTCPServer(('127.0.0.1', int(ReadSettingsLineName(2))), MyBaseRequestHandlerrTCP_Fenfa)
+		server = ThreadingTCPServer(("", int(ReadSettingsLineName(2))), MyBaseRequestHandlerrTCP_Fenfa)
 		server.serve_forever()
 
 ####TCP链接线程处理60001端口数据
 class ListenthreadTCP_YunYing(threading.Thread):
+	def __init__(self):
+		threading.Thread.__init__(self)
+	def run(self):
+		server = ThreadingTCPServer(("", int(ReadSettingsLineName(3))), MyBaseRequestHandlerrTCP_YunYing)
+		server.serve_forever()
+
+####TCP链接线程处理60002端口数据
+class ListenthreadTCP_ChaJian(threading.Thread):
 	def __init__(self,Windows):
 		threading.Thread.__init__(self)
 		self.List=Windows.Frame_Left_Down_List
 	def run(self):
 		global List
 		List =self.List   #讲Tkinter界面传入
-		server = ThreadingTCPServer(('127.0.0.1', int(ReadSettingsLineName(3))), MyBaseRequestHandlerrTCP_YunYing)
+		server = ThreadingTCPServer(("", int(ReadSettingsLineName(4))), MyBaseRequestHandlerrTCP_ChaJian)
 		server.serve_forever()
-
-####TCP链接线程处理60002端口数据
-class ListenthreadTCP_ChaJian(threading.Thread):
-	def __init__(self):
-		threading.Thread.__init__(self)
-	def run(self):
-		server = ThreadingTCPServer(('127.0.0.1', int(ReadSettingsLineName(4))), MyBaseRequestHandlerrTCP_ChaJian)
-		server.serve_forever(poll_interval=0.5)
 
 ####TCPServer处理12112端口数据
 class MyBaseRequestHandlerrTCP_Fenfa(BaseRequestHandler):
@@ -46,7 +46,7 @@ class MyBaseRequestHandlerrTCP_Fenfa(BaseRequestHandler):
 				#一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				data = self.request.recv(4096)
 				if not data:
-					self.sock.close()
+					server.shutdown()
 				data = data[4:]
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
@@ -76,7 +76,7 @@ class MyBaseRequestHandlerrTCP_YunYing(BaseRequestHandler):
 				#一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				data = self.request.recv(4096)
 				if not data:
-					self.sock.close()
+					server.shutdown()
 				data = data[4:]
 				#print len(data)
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
@@ -110,7 +110,7 @@ class MyBaseRequestHandlerrTCP_ChaJian(BaseRequestHandler):
 			try:
 				data = self.request.recv(4096)              ###一次读取1024字节,并去除两端的空白字符(包括空格,TAB,\r,\n)
 				if not data:
-					self.sock.close()
+					server.shutdown()
 				data = data[4:]
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
