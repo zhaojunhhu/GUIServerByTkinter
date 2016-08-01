@@ -111,12 +111,12 @@ lt_TCP_ChaJian = ListenthreadTCP_ChaJian(MyWindows)			##TCP 插件端口60002
 if ReadSettingsLineName(5) == "1": #开启UDP、TCP各个线程
 	lt_UDP_Fenfa.start()
 	lt_UDP_YunYing.start()
-	lt_UDP_WebServer.start()
-elif ReadSettingsLineName(6) == "1":
-	lt_TCP_Fenfa.start()
-	lt_TCP_YunYing.start()
+#elif ReadSettingsLineName(6) == "1":
+lt_TCP_Fenfa.start()
+lt_TCP_YunYing.start()
 
 lt_TCP_ChaJian.start()
+lt_UDP_WebServer.start()
 
 MyWindows.MainLoop()
 root.protocol('WM_DELETE_WINDOW',printProtocol)

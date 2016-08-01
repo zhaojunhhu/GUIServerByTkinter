@@ -78,7 +78,6 @@ class MyBaseRequestHandlerrTCP_YunYing(BaseRequestHandler):
 				if not data:
 					server.shutdown()
 				data = data[4:]
-				#print len(data)
 				List.insert(END, '%s<<<<--From IP :%s--RevcTCP :\n%s\n\n'%(datetime.datetime.now(),self.client_address[0],data))
 				AddRecv_TcpLogs(data)
 				if RPCMethod_Boot(data) == 'Boot':
