@@ -22,9 +22,9 @@ def SendBootFirst(Result):
 
 ####生成-分发平台RegisterFirst消息,入口result，返回str型消息
 def SendRegisterFirst(Interval,Result):
-	data = {"Interval":Interval,"Result":Result,"ServerAddr":"","ServerPort":1}#list对象
+	data = {"Interval":Interval,"Result":Result,"ServerAddr":"","ServerPort":""}#list对象
 	data["ServerAddr"]=ReadSettingsLineName(1) #添加运营服务器地址（主机地址）
-	data["ServerPort"]=int(ReadSettingsLineName(3))#添加运营服务器UDP Port（60001）
+	data["ServerPort"]=ReadSettingsLineName(3)#添加运营服务器UDP Port（60001）
 	data_string = json.dumps(data)  #转为json格
 	return data_string
 
