@@ -14,7 +14,7 @@ class ListenthreadTCP_Fenfa(threading.Thread):
 		threading.Thread.__init__(self)
 	def run(self):
 		##监控12112端口，引入TCP处理类
-		server = ThreadingTCPServer(("", int(ReadSettingsLineName(2))), MyBaseRequestHandlerrTCP_Fenfa)
+		server = ThreadingTCPServer(('192.168.0.10', int(ReadSettingsLineName(2))), MyBaseRequestHandlerrTCP_Fenfa)
 		server.serve_forever()
 
 ####TCP链接线程处理60001端口数据
@@ -22,7 +22,7 @@ class ListenthreadTCP_YunYing(threading.Thread):
 	def __init__(self):
 		threading.Thread.__init__(self)
 	def run(self):
-		server = ThreadingTCPServer(("", int(ReadSettingsLineName(3))), MyBaseRequestHandlerrTCP_YunYing)
+		server = ThreadingTCPServer(('192.168.0.10', int(ReadSettingsLineName(3))), MyBaseRequestHandlerrTCP_YunYing)
 		server.serve_forever()
 
 ####TCP链接线程处理60002端口数据
@@ -33,7 +33,7 @@ class ListenthreadTCP_ChaJian(threading.Thread):
 	def run(self):
 		global List
 		List =self.List   #讲Tkinter界面传入
-		server = ThreadingTCPServer(("", int(ReadSettingsLineName(4))), MyBaseRequestHandlerrTCP_ChaJian)
+		server = ThreadingTCPServer(('192.168.0.10', int(ReadSettingsLineName(4))), MyBaseRequestHandlerrTCP_ChaJian)
 		server.serve_forever()
 
 ####TCPServer处理12112端口数据
@@ -128,14 +128,21 @@ class MyBaseRequestHandlerrTCP_ChaJian(BaseRequestHandler):
 					self.request.sendall(TCP_Send(SendChaJianHeartbeat(0)))			##发送Register响应消息
 					List.insert(END,AddSend_TcpLogs(SendChaJianHeartbeat(0)))
 					if Get_RunONTFlag() == 1:
-						print u"TCP插件中心反向触发网关*^*^*^*^*Parameter"
-						self.request.sendall(TCP_Send(Get_RunCmdType()))			##发送Register响应消息
-						List.insert(END,AddSend_TcpLogs(Get_RunCmdType()))
-						Set_RunONTFlag(0)                                            ####消息复位
+						print  "Get_RunChaJianDisconnect()"
+						if Get_RunCmdType()!="TestCmdType":
+							print u"TCP插件中心反向触发网关*^*^*^*^*Parameter"
+							self.request.sendall(TCP_Send(Get_RunCmdType()))			##发送Register响应消息
+							List.insert(END,AddSend_TcpLogs(Get_RunCmdType()))
+							Set_RunCmdType("TestCmdType")
+						elif Get_RunChaJianDisconnect()[1] == 1:
+							print u"TCP插件中心反向触发网关Disconnect断开连接"
+							self.request.sendall(TCP_Send(SendChaJianDisconnect()))			##发送Register响应消息
+							List.insert(END,AddSend_TcpLogs(SendChaJianDisconnect()))
+						else:
+							continue                                               ####消息复位
 				elif RPCMethod_ChaJianParameter(data) == 'return_Parameter':
-					print u"TCP插件中心*^*^*^*^*方法响应*^*^*^*^*return_Parameter"
-					self.request.sendall(TCP_Send(SendChaJianParameter(0)))
-					List.insert(END,AddSend_TcpLogs(SendChaJianParameter(0)))
+					print "异常流程测试完毕！！"
+					Set_RunONTFlag(0)
 				else:
 					print u"查询消息类型失败"
 				print u"TCP端口60002收到数据"+data

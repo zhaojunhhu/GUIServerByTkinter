@@ -336,7 +336,8 @@ def Get_Lable_f_list(event):
 	Disconnect = ()
 	if Lable_f_list.get() == u"未设置":
 		print u"(f)反向触发网关重新注册;[未设置]"
-	elif Lable_f_list.get() == u"触发网关和插件中心断开连接！":
 		Disconnect = (0,0)
+	elif Lable_f_list.get() == u"触发网关和插件中心断开连接！":
+		Disconnect = (0,1)
 		print u"(f)反向触发网关重新注册;[触发网关和插件中心断开连接]"
 	Set_RunChaJianDisconnect(Disconnect)

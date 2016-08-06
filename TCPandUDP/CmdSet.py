@@ -128,7 +128,11 @@ def SendChaJianParameter(Parameter):
 	data = {"Result":Parameter}#list对象
 	data_string = json.dumps(data)  #转为json格
 	return data_string
-
+###生成插件中心平台Disconnect消息
+def SendChaJianDisconnect():
+	data = {"RPCMethod":"Disconnect","ID":1234}
+	data_string = json.dumps(data)  #转为json格
+	return data_string
 def TCP_Send(Cmd):
 	strlen=len(Cmd)   #计算数据长度
 	i=strlen/256

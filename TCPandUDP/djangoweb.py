@@ -232,7 +232,7 @@ def Get_WebLable_f_list(mac,info):
 		Disconnect = (0,0)
 		print u"f)  触发网关和插件中心断开连接:[未设置]"
 	elif info == "0":
-		Disconnect = (0,0)
+		Disconnect = (0,1)
 		print u"f)  触发网关和插件中心断开连接:[触发网关和插件中心断开连接]"
 	Set_RunChaJianDisconnect(Disconnect)
 
@@ -355,6 +355,7 @@ def ReadRunningOnu(mac):
 	###f
 	if Get_RunChaJianDisconnect() == (0,0):
 		info["Disconnect"] = "[未设置]"
-
+	elif Get_RunChaJianDisconnect() == (0,1):
+		info["Disconnect"] = "[触发网关和插件中心断开连接！]"
 	return info
 
