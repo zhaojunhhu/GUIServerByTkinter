@@ -12,17 +12,17 @@ from OnuList.Addonulist import AddOnu
 ###UDP  socket port 12112配置
 mysocketUDP_Fenfa = socket(AF_INET,SOCK_DGRAM)#SOCK_STREAM)# SOCK_DGRAM)
 mysocketUDP_Fenfa.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)	##这里value设置为1，表示将SO_REUSEADDR标记为TRUE，操作系统会在服务器socket被关闭或服务器进程终止后马上释放该服务器的端口，否则操作系统会保留几分钟该端口。
-mysocketUDP_Fenfa.bind(('192.168.0.10', int(ReadSettingsLineName(2))))	#监听IP	端口12112
+mysocketUDP_Fenfa.bind(('192.168.10.10', int(ReadSettingsLineName(2))))	#监听IP	端口12112
 
 ###UDP  socket port 60001配置
 mysocketUDP_Yunying = socket(AF_INET,SOCK_DGRAM)#SOCK_STREAM)# SOCK_DGRAM)
 mysocketUDP_Yunying.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)	##这里value设置为1，表示将SO_REUSEADDR标记为TRUE，操作系统会在服务器socket被关闭或服务器进程终止后马上释放该服务器的端口，否则操作系统会保留几分钟该端口。
-mysocketUDP_Yunying.bind(('192.168.0.10', int(ReadSettingsLineName(3))))	#监听IP	端口60001
+mysocketUDP_Yunying.bind(('192.168.10.10', int(ReadSettingsLineName(3))))	#监听IP	端口60001
 
 ###UDP  socket WebServer 31500配置
 mysocketUDP_WebServer = socket(AF_INET,SOCK_DGRAM)#SOCK_STREAM)# SOCK_DGRAM)
 mysocketUDP_WebServer.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)	##这里value设置为1，表示将SO_REUSEADDR标记为TRUE，操作系统会在服务器socket被关闭或服务器进程终止后马上释放该服务器的端口，否则操作系统会保留几分钟该端口。
-mysocketUDP_WebServer.bind(('', int(ReadSettingsLineName(7))))	#监听IP	端口60001
+mysocketUDP_WebServer.bind(('0.0.0.0', int(ReadSettingsLineName(7))))	#监听IP	端口60001
 
 
 ####UDP链接线程处理12112端口数据
